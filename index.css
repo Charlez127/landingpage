@@ -1,0 +1,219 @@
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    background-color: red;
+}
+
+.heshoe {
+    height: 100%;
+    border: none;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heshoelist {
+    list-style: none;
+    display: flex;
+}
+.heshoelist li{
+    padding: 0 30px;
+}
+.heshoebox {
+    width: 45%;
+    height: 100%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+main {
+    width: 100%;
+    height: 640px;
+    border: none;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    flex-direction: column;
+    row-gap: 3%;
+    background-color:  rgb(146, 88, 88);
+    color: white;
+}
+main h1{
+    margin-top:0px;
+    font-size: 3rem;
+    margin-right: 20%;
+}
+main p{
+    margin-top:10px;
+    width: 350px;
+    margin-right: 20.5%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+main button{
+    margin-top:20px;
+    padding: 4px 40px;
+    font-size: 1.5rem;
+    margin-right: 28%;
+    background-color: brown;
+    color: white;
+}
+
+.shoe1 {
+    border: none;
+    width: 100%;
+    background-color: rgb(194, 52, 52);
+    display: flex;
+    color: white;
+    justify-content:center;
+    height: 640px;
+    align-items: center;
+}
+
+.shoetext, .shoeimage {
+    border: none;
+    height: 100%;
+    width: 50%;
+  
+}
+
+.shoetext  {
+    flex-direction: column;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    row-gap: 3%;
+}
+
+.shoetext button{
+   font-size: 1.3rem;
+   width: 40%;
+   text-align:center;
+}
+
+.shoetext h1{
+    font-size: 2rem;
+ }
+ .shoetext p{
+    font-size: 1.4rem;
+    width: 60%;
+    text-align:center;
+ }
+
+.shoeimage img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.shoe2 {
+    height: 640px;
+    border: none;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(204, 104, 104);
+}
+
+.shoebox2{
+    border:none;
+    width: 100%;
+    justify-content:center;
+    height: 70%;
+    display: flex;
+    gap: 30px;
+}
+
+.shoeboxes {
+    height: 100%;
+    display: flex;
+    justify-content:flex-start;
+    border: 3px solid black;
+    width: 28%;
+    flex-direction: column;
+    background-color: darkred;
+    color: white;
+}
+.shoeboxes button{
+    margin-top: 30px;
+    margin-left: 90px;
+    padding: 6px 40px;
+    width:200px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: brown;
+    border: none;
+}
+
+.shoeboxes h1{
+    margin-top: 60px;
+    margin-left: 65px;
+}
+
+.shoeboxpics2 {
+    border: 1px solid;
+    width: 100%;
+    height: 40%;
+}
+.shoeboxpics2 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+footer {
+    border: 1px solid;
+    width: 100%;
+    height: 640px;
+    display: flex;
+    align-items: flex-end;
+    background-color: rgb(204, 104, 104);
+}
+
+.shoefoot {
+    border: none;
+    width: 100%;
+    display: flex;
+    background-color: rgb(231, 80, 80);
+    justify-content: space-between;
+    height: 40%;
+}
+
+.shoefoottxt {
+    border:none;
+    width: 30%;
+    height: 100%;
+}
+.shoefoottxt h2{
+    margin: 20px;
+    font-size: 2rem;
+}
+.shoefoottxt p{
+    margin-left: 20px;
+    margin-top: -10px;
+    font-size: 1.4rem;
+}
+
+
+
+
